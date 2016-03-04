@@ -14,7 +14,7 @@
     },
     "keywords": [
         "vue",
-        "braunch"
+        "brunch"
     ],
     "dependencies": {
         "vueify": "8.3.5",
