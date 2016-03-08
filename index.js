@@ -40,13 +40,9 @@ class VueBrunch {
                 
                 // Resolve if we are good.
                 return resolve(result);
-                
             });
-            
         });
-        
     }
-    
 }
 
 VueBrunch.prototype.extension = 'vue';
