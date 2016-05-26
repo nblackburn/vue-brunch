@@ -1,0 +1,16 @@
+{
+    "critics": {
+        "wc": {
+            "limit": 1000
+        },
+        "lint": {
+            "engine": "eslint"
+        }
+    },
+    "ignore": [
+        "**/node_modules/**"
+    ],
+    "test": [
+        "**/test/**"
+    ]
+}
