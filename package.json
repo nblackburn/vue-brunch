@@ -1,12 +1,15 @@
 {
     "name": "vue-brunch",
     "description": "Adds support to Brunch for pre-compiling single file Vue components.",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "license": "MIT",
     "main": "source/index.js",
     "repository": {
         "type": "git",
         "url": "http://github.com/nblackburn/vue-brunch.git"
+    },
+    "scripts": {
+        "test": "ava test --verbose"
     },
     "author": {
         "url": "http://nblackburn.uk",
@@ -25,5 +28,15 @@
         "vue-hot-reload-api": "^1.2.0",
         "babel-preset-es2015": "^6.1.2",
         "babel-plugin-transform-runtime": "^6.1.2"
+    },
+    "devDependencies": {
+        "ava": "^0.15.1",
+        "babel-polyfill": "^6.9.0"
+    },
+    "ava": {
+        "babel": "inherit",
+        "require": [
+            "babel-register"
+        ]
     }
 }
