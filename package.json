@@ -3,6 +3,7 @@
     "description": "Adds support to Brunch for pre-compiling single file Vue components.",
     "version": "1.0.0",
     "license": "MIT",
+    "main": "source/index.js",
     "repository": {
         "type": "git",
         "url": "http://github.com/nblackburn/vue-brunch.git"
