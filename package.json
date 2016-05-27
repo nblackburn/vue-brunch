@@ -1,7 +1,7 @@
 {
     "name": "vue-brunch",
     "description": "Adds support to Brunch for pre-compiling single file Vue components.",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "license": "MIT",
     "main": "source/index.js",
     "repository": {

@@ -1,10 +1,12 @@
-import {compiler} from 'vueify';
+'use strict';
+
+var compiler = require('vueify').compiler;
 
 /**
  * Vue Brunch
  * Adds support to Brunch for pre-compiling single file Vue components.
  * 
- * @version 1.1.1
+ * @version 1.1.2
  * @author Nathaniel Blackburn <support@nblackburn.uk> (http://nblackburn.uk)
  */
 
