@@ -9,7 +9,6 @@ var compiler = require('vueify').compiler;
  * @version 1.1.2
  * @author Nathaniel Blackburn <support@nblackburn.uk> (http://nblackburn.uk)
  */
-
 class VueBrunch {
     
     constructor(config) {
