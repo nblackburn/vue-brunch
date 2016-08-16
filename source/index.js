@@ -16,6 +16,13 @@ class VueBrunch {
         this.config = config && config.plugins && config.plugins.vue || {};
     }
     
+    /**
+     * Compile a component into a string.
+     * 
+     * @param {object} file
+     * 
+     * @return {promise}
+     */
     compile(file) {
         
         if (this.config) {
