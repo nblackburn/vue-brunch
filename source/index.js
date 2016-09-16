@@ -30,7 +30,7 @@ class VueBrunch {
         
         return new Promise((resolve, reject) => {
             
-            compiler.compile(file.data, file.path, function (error, result) {
+            compiler.compile(file.data, file.path, (error, result) => {
                 
                 if (error) {
                     reject(error);
