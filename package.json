@@ -22,11 +22,5 @@
     "devDependencies": {
         "ava": "^0.16.0",
         "babel-polyfill": "^6.9.0"
-    },
-    "ava": {
-        "babel": "inherit",
-        "require": [
-            "babel-register"
-        ]
     }
 }
