@@ -13,7 +13,7 @@
         "brunch"
     ],
     "dependencies": {
-        "vueify": "8.4.1",
+        "vueify": "^8.4.1",
         "babel-core": "^6.13.2",
         "babel-runtime": "^6.9.2",
         "vueify-insert-css": "^1.0.0",
