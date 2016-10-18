@@ -19,5 +19,8 @@
     "devDependencies": {
         "ava": "^0.16.0",
         "babel-polyfill": "^6.16.0"
+    },
+    "peerDependencies": {
+        "babel-core": "^6.17.0"
     }
 }
