@@ -13,11 +13,11 @@
         "brunch"
     ],
     "dependencies": {
-        "vueify": "^9.2.2",
+        "vueify": "^9.2.4",
         "vue-hot-reload-api": "^2.0.6"
     },
     "devDependencies": {
         "ava": "^0.16.0",
-        "babel-polyfill": "^6.9.0"
+        "babel-polyfill": "^6.16.0"
     }
 }
