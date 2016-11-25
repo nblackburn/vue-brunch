@@ -57,7 +57,7 @@ class VueBrunch {
     extractCSS() {
         var that = this;
         var outPath = this.config.out || this.config.o || 'bundle.css';
-        var css = Object.keys(this.styles)
+        var css = Object.keys(this.styles || [])
             .map(function (file) {
                 return that.styles[file].replace(/(\/\*.*)stdin(.*\*\/)/g, "$1" + file + "$2")
             })
