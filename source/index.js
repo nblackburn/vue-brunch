@@ -14,6 +14,7 @@ class VueBrunch {
 
     constructor(config) {
         this.config = config && config.plugins && config.plugins.vue || {};
+        this.styles = Object.create(null);
     }
 
     /**
@@ -24,8 +25,6 @@ class VueBrunch {
      * @return {promise}
      */
     compile(file) {
-
-        this.styles = Object.create(null);
 
         if (this.config) {
             compiler.applyConfig(this.config);
@@ -59,7 +58,7 @@ class VueBrunch {
         var outPath = this.config.out || this.config.o || 'bundle.css';
         var css = Object.keys(this.styles || [])
             .map(function (file) {
-                return that.styles[file].replace(/(\/\*.*)stdin(.*\*\/)/g, "$1" + file + "$2")
+                return that.styles[file].replace(/(\/\*.*)stdin(.*\*\/)/g, "$1" + file + "$2");
             })
             .join('\n');
 
