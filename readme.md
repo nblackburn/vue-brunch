@@ -4,7 +4,7 @@ Adds support to Brunch for pre-compiling single file Vue components.
 
 ## Installation
 
-For 2.x support, use the 2.x branch (in sync with master)...
+For 2.x support, use the master branch...
 
 ```bash
 npm install vue-brunch --save-dev
