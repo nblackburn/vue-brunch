@@ -30,7 +30,7 @@ class VueBrunch {
             compiler.applyConfig(this.config);
         }
 
-        compiler.on("style", (args) => {
+        compiler.on('style', args => {
             this.styles[args.file] = args.style;
         });
 
