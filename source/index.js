@@ -66,7 +66,7 @@ class VueBrunch {
             outPath.write(css);
             outPath.end();
         } else if (typeof outPath === 'string') {
-            fs.writeFile(outPath, css);
+            fs.writeFileSync(outPath, css);
         }
     }
 }
