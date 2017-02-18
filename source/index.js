@@ -30,7 +30,7 @@ class VueBrunch {
             compiler.applyConfig(this.config);
         }
 
-        compiler.on("style", (args) => {
+        compiler.on('style', args => {
             this.styles[args.file] = args.style;
         });
 
@@ -66,7 +66,7 @@ class VueBrunch {
             outPath.write(css);
             outPath.end();
         } else if (typeof outPath === 'string') {
-            fs.writeFile(outPath, css);
+            fs.writeFileSync(outPath, css);
         }
     }
 }
