@@ -23,10 +23,6 @@ Once the plugin has been installed, you are all set.
 When ever you include a `.vue` file in your project, Brunch will automatically compile
 and write the converted module into your applications script path.
 
-## Donations
-
-If you found this plugin to be useful, please consider [donating](https://paypal.me/nblackburn).
-
 ## License
 
 This component is licensed under [MIT](), see [license.md](license.md) for details.
