@@ -39,8 +39,3 @@ plugins: {
 ## License
 
 This component is licensed under [MIT](), see [license.md](license.md) for details.
-
-## Support on Beerpay
-Hey dude! Help me out for a couple of :beers:!
-
-[![Beerpay](https://beerpay.io/nblackburn/vue-brunch/badge.svg?style=beer-square)](https://beerpay.io/nblackburn/vue-brunch)  [![Beerpay](https://beerpay.io/nblackburn/vue-brunch/make-wish.svg?style=flat-square)](https://beerpay.io/nblackburn/vue-brunch?focus=wish)
