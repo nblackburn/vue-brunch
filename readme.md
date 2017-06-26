@@ -2,6 +2,8 @@
 
 Adds support to Brunch for pre-compiling single file Vue components.
 
+> **NOTE**: This project is no longer maintained.
+
 ## Installation
 
 For 2.x support, use the master branch...
