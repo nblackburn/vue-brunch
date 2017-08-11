@@ -1,22 +1,15 @@
 'use strict';
 
-const fs = require('fs');
 const compiler = require('vueify').compiler;
+const fs = require('fs');
 
 class VueBrunch {
 
   constructor(config) {
     this.config = config && config.plugins && config.plugins.vue || {};
-    this.styles = Object.create(null);
+    this.styles = {};
   }
 
-  /**
-   * Compile a component into a string.
-   *
-   * @param {object} file
-   *
-   * @return {promise}
-   */
   compile(file) {
 
     if (this.config) {
@@ -46,10 +39,9 @@ class VueBrunch {
   }
 
   extractCSS() {
-    const that = this;
-    const outPath = this.config.out || this.config.o || 'bundle.css';
-    const css = Object.keys(this.styles || [])
-      .map(file => that.styles[file].replace(/(\/\*.*)stdin(.*\*\/)/g, `$1${file}$2`))
+    var outPath = this.config.out || this.config.o || 'bundle.css';
+    var css = Object.keys(this.styles || [])
+      .map(file => this.styles[file])
       .join('\n');
 
     if (typeof outPath === 'object' && outPath.write) {
