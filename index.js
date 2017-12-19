@@ -54,7 +54,7 @@ class VueBrunch {
 }
 
 VueBrunch.prototype.brunchPlugin = true;
-VueBrunch.prototype.type = 'template';
+VueBrunch.prototype.type = 'javascript';
 VueBrunch.prototype.extension = 'vue';
 
 module.exports = VueBrunch;
