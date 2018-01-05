@@ -40,4 +40,4 @@ plugins: {
 
 ## License
 
-This component is licensed under MIT, see [license.md](license.md) for details.
+This component is licensed under MIT, see [license.md](LICENSE.md) for details.
