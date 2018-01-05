@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/theocodes/vue-brunch.svg?branch=travis-ci)](https://travis-ci.org/theocodes/vue-brunch)
-
 # Vue Brunch
 
 Adds support to Brunch for pre-compiling single file Vue components.
