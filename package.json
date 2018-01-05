@@ -4,13 +4,13 @@
   "author": "Nathaniel Blackburn <support@nblackburn.uk> (http://nblackburn.uk)",
   "version": "2.0.1",
   "license": "MIT",
-  "main": "./index.js",
+  "main": "./source/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/theocodes/vue-brunch"
   },
   "scripts": {
-    "test": "eslint index.js && ava test --verbose ./test.js"
+    "test": "eslint ./source/index.js && ava test --verbose ./test/index.js"
   },
   "keywords": [
     "vue",
