@@ -39,3 +39,7 @@ plugins: {
 ## License
 
 This component is licensed under MIT, see [license.md](LICENSE.md) for details.
+
+## Donations
+
+[![](https://www.buymeacoffee.com/assets/img/custom_images/black_img.png)](https://buymeacoffee.com/nblackburn)
