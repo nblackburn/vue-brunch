@@ -11,7 +11,9 @@ class VueBrunch {
   }
 
   compile(file) {
-
+    // clean up existing styles for this file
+    delete this.styles[file.path];
+    
     if (this.config) {
       compiler.applyConfig(this.config);
     }
